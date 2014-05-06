@@ -11,9 +11,4 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
-
-Route::get('index', array('as' => 'index', 'uses' => 'App\Controllers\Site\MainController@index'));
+Route::get('/', array('as' => 'index', 'uses' => 'App\Controllers\Site\MainController@index'));
