@@ -1,0 +1,3 @@
+[Tue May 06 17:36:06.320288 2014] [:error] [pid 3328:tid 812] [client 127.0.0.1:54175] PHP Fatal error:  Class 'App\\Controllers\\BaseController' not found in C:\\Apache24\\htdocs\\redmadrobot\\app\\controllers\\Site\\MainController.php on line 9
+[Tue May 06 17:39:30.662976 2014] [:error] [pid 3328:tid 812] [client 127.0.0.1:54186] PHP Fatal error:  Class 'App\\Controllers\\BaseController' not found in C:\\Apache24\\htdocs\\redmadrobot\\app\\controllers\\Site\\MainController.php on line 9
+[Tue May 06 17:39:56.067429 2014] [:error] [pid 3328:tid 812] [client 127.0.0.1:54195] PHP Fatal error:  Class 'App\\Controllers\\BaseController' not found in C:\\Apache24\\htdocs\\redmadrobot\\app\\controllers\\Site\\MainController.php on line 10
