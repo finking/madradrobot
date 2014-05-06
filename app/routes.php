@@ -12,3 +12,7 @@
 */
 
 Route::get('/', array('as' => 'index', 'uses' => 'App\Controllers\Site\MainController@index'));
+
+Route::get('former', array('as' => 'former', 'uses' => 'App\Controllers\Site\MainController@former'));
+
+Route::post('action', array('as' => 'action', 'uses' => 'App\Controllers\Site\MainController@action'));

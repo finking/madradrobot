@@ -14,4 +14,15 @@ class MainController extends BaseController
 		return View::make('index');
 	}
 
+	public function former()
+	{
+		return View::make('former');
+	}
+
+	public function action()
+	{
+
+	}
+
+
 }
