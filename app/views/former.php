@@ -17,6 +17,7 @@
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 
 	<![endif]-->
+	<?= javascript_include_tag() ?>
 </head>
 <body>
 <div class="container">
@@ -31,12 +32,13 @@
 					<ul class="nav navbar-nav">
 						<li ><a href="/">Главная</a></li>
 						<li class="active"><a href="#">Страница с формой</a></li>
-						<li><a href="#">Страница с просмотром</a></li>
+						<li><a href="view">Страница с просмотром</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
+	<?= View::make('flash_message') ?>
 	<div class="row">
 		<div class="col-sm-6 col-sm-offset-3">
 			<h4>Здесь Должно быть название формы!</h4>
@@ -52,7 +54,7 @@
 
 				<div class="col-sm-8">
 					<?=
-					Form::input('text', 'name', '', array(
+					Form::input('text', 'name_message', '', array(
 						'placeholder' => 'Напишите название текста',
 						'class'       => 'form-control',
 						'id'          => 'inputName',
@@ -62,16 +64,17 @@
 				</div>
 			</div>
 			<div class="form-group">
-				<label for="inputAbout" class="col-sm-3 control-label">Какой-нибудь текст</label>
+				<label for="inputAbout" class="col-sm-3 control-label">Текст сообщения</label>
 
 				<div class="col-sm-8">
 					<?=
-					Form::textarea('about', '', array(
+					Form::textarea('body_message', '', array(
 						'placeholder' => 'Расскажите что-нибудь',
 						'class'       => 'form-control',
 						'id'          => 'inputAbout',
 						'required'    => 'required',
 						'rows'        => '5',
+						'max'        => '10',
 					));
 					?>
 				</div>

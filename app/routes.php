@@ -16,3 +16,5 @@ Route::get('/', array('as' => 'index', 'uses' => 'App\Controllers\Site\MainContr
 Route::get('former', array('as' => 'former', 'uses' => 'App\Controllers\Site\MainController@former'));
 
 Route::post('action', array('as' => 'action', 'uses' => 'App\Controllers\Site\MainController@action'));
+
+Route::get('view', array('as' => 'view', 'uses' => 'App\Controllers\Site\MainController@view'));
