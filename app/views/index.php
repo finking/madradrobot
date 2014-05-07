@@ -46,6 +46,10 @@
 				quos dolores et dolorum fuga eveniet, ut. Voluptatem accusantium doloremque laudantium, totam
 				rem aperiam eaque ipsa quae. Non recusandae qui dolorem ipsum, quia voluptas assumenda est.
 			</p>
+
+			<p><a href="former">Ссылка на страницу с формой</a></p>
+
+			<p><a href="view">Сслыка на страницу просмотра последних сообщений</a></p>
 		</div>
 	</div>
 </div>

@@ -41,7 +41,7 @@
 	<?= View::make('flash_message') ?>
 	<div class="row">
 		<div class="col-sm-6 col-sm-offset-3">
-			<h4>Здесь Должно быть название формы!</h4>
+			<h4>Здесь вы можете добавить сообщение:</h4>
 			<?=
 			Form::open(array(
 				'action' => 'action',
@@ -50,7 +50,7 @@
 				'method' => 'post',
 			)); ?>
 			<div class="form-group">
-				<label for="inputName" class="col-sm-3 control-label">Название текста</label>
+				<label for="inputName" class="col-sm-3 control-label">Название</label>
 
 				<div class="col-sm-8">
 					<?=
@@ -64,7 +64,7 @@
 				</div>
 			</div>
 			<div class="form-group">
-				<label for="inputAbout" class="col-sm-3 control-label">Текст сообщения</label>
+				<label for="inputAbout" class="col-sm-3 control-label">Текст</label>
 
 				<div class="col-sm-8">
 					<?=
